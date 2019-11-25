@@ -1,5 +1,8 @@
+import time
+
 def run():
-    print('Running...")
+    t = time.time()
+    print('The time is "+str(t))
 
 
 if __name__ == '__main__':
